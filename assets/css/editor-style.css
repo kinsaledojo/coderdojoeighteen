@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/**
+ * These styles should be loaded by the Block Editor only
+*/
+:root {
+    --core-color-one: #642580;
+    --core-color-two: #41BAC1;
+    --core-color-three: #ED684A;
+    --sushi-backgroundcard-: #F5F6F9;
+    --theme-color-one: #FFFFFF;
+    --theme-color-two: #000000;
+    --theme-color-three: #222222;
+    --theme-color-four: #A6A6A6;
+}
+
+.post-type-page .editor-post-title__input {
+    background: var(--core-color-one);
+}
+
+.post-type-page .editor-post-title {
+    margin: 0;
+    max-width: 100%;
+}
+
+.post-type-page .editor-post-title .editor-post-title__input {
+    text-align: center;
+    color: var(--theme-color-one);
+}
+
+.alignfull {
+    max-width: 100%;
+}
+
+.alignfull .wp-block-group__inner-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+.hero-section {
+
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 0px;
+    background-image: radial-gradient(ellipse at bottom,#fff,#fff calc(50% - 2px),transparent 50%,transparent 100%),linear-gradient(180deg,#642580 0,#9266a6);
+    background-size: 200% 300px,100%;
+    background-position: bottom 0px center,100% 0;
+    background-repeat: no-repeat;
+}
+
+.hero-section .wp-block-group__inner-container p{
+    text-align: center;
+    margin-top: 0;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+  transition: 300ms;
+}
+
+.has-grey-background {
+    background: #f4f4f4;
+}
+
